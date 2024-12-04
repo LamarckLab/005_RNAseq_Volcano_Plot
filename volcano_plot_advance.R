@@ -51,8 +51,3 @@ output_pdf <- "C:/Users/Lamarck/Desktop/volcano_plot.pdf"
 pdf(output_pdf, height = 9, width = 11)
 print(p)
 dev.off()
-
-
-# 保存差异基因表格
-output_table <- "C:/Users/Lamarck/Desktop/volcano_plot_data_processed.csv"
-write.table(data, file = output_table, quote = FALSE, sep = ",", row.names = FALSE)
